@@ -39,6 +39,10 @@
 
 @media only screen and (max-width: 600px){
 
+    .navbar{
+        padding: 20px 0px;
+    }
+
     .row{
         align-items: center;
     }
@@ -62,5 +66,34 @@
     }
     .testimonials .col-3{
         margin: 10px 0;
+    }
+
+    /* ------------Single Product------------ */
+
+    .single-product .row{
+        text-align: left;
+    }
+    .single-product .col-2{
+        padding: 0px;
+    }
+    .single-product h1{
+        font-size: 25px;
+        line-height: 35px;
+    }
+    .single-product h4{
+        font-size: 20px;
+    }
+
+
+ /* -----------------------Cart-page----------------------- */
+    .cart-page{
+        padding: 0px 25px;
+    }
+    .cart-info p{
+        font-size: 15px;
+    }
+    .cart-info small{
+        font-size: 12px;
+
     }
 }
