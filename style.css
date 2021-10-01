@@ -38,6 +38,13 @@ nav ul li{
     display: inline-block;
     margin-right: 20px;
 }
+#menuItems li a{
+    padding: 5px;
+}
+#menuItems li a:hover{
+    text-decoration: underline;
+    border-radius: 10px;
+}
 
 p{
     color: #555;
